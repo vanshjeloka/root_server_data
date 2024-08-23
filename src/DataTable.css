@@ -1,0 +1,15 @@
+.table-container {
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .dropdown {
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+  }
+  

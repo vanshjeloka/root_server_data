@@ -1,0 +1,32 @@
+.graph-container {
+  width: 100%;
+  max-width: 1200px; /* Same max width as data table */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #eceaea;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.graph-container .recharts-default-tooltip {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.recharts-line {
+  stroke-width: 2px;
+}
+
+.recharts-xAxis .recharts-axis-line {
+  stroke: #ddd;
+}
+
+.recharts-yAxis .recharts-axis-line {
+  stroke: #ddd;
+}
+
+.recharts-cartesian-grid line {
+  stroke: #eee;
+  stroke-dasharray: 4 4;
+}

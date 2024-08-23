@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Checkbox Container */
+.checkbox-container {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f7f7f7; /* Light gray background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 1000px; /* Max width for larger screens */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.checkbox-container label {
+  margin: 5px 15px;
+  font-size: 16px; /* Slightly larger font size for readability */
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-right: 8px; /* Space between checkbox and label text */
+}
+
+/* Loading Text */
+.loading-text {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Graph Container */
+.graph-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Data Table Container */
+.data-table-container {
+  margin: 80px auto 0;
+  max-width: 1000px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Root Selection Dropdown */
+.root-selection-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.root-select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Data Table */
+.table-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+thead {
+  background-color: #353341;
+  color: white;
+}
+
+
