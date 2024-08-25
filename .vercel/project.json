@@ -1,0 +1,13 @@
+{
+    "name": "root_server_history",
+    "version": "0.1.0",
+    "scripts": {
+      "start": "node api/server.js",
+      "build": "cd src && npm install && npm run build",
+      "postinstall": "npm run build"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+  
