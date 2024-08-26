@@ -34,7 +34,7 @@ const App = () => {
       try {
         const responses = await Promise.all(
           Object.keys(rootNameMapping).map(rootKey =>
-            fetch(`http://localhost:5000/api/timeline/${rootKey}`)
+            fetch(`http://localhost:5000/api/timeline/${rootKey}`) // Adjusted to use relative URL
               .then(response => response.json())
               .then(data => data.map(item => ({ ...item, root: rootNameMapping[rootKey] }))) // Map root name
           )

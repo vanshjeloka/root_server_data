@@ -1,11 +1,10 @@
-//Server.js//
 const express = require('express');
 const mysql = require('mysql2');
 const cors = require('cors');
 const moment = require('moment-timezone');
 
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000; // Use a default port for local testing
 
 // Create a MySQL connection
 const db = mysql.createConnection({
@@ -69,6 +68,5 @@ app.get('/api/timeline/:table', async (req, res) => {
   }
 });
 
-app.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
-});
+// Export handler for Vercel
+module.exports = app;
